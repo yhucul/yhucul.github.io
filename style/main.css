@@ -1,0 +1,156 @@
+@import url(./font.css);
+* {
+  font-family: "Libre Franklin";
+}
+.header{
+    margin:0 auto;
+}
+h1 {
+  font-size: 64px;
+}
+h2,h3 {
+  font-size: 24px;
+}
+h4{
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+}
+h5,p {
+  font-size: 18px;
+}
+section {
+  max-width: 1440px;
+}
+.navbar {
+  margin: 56px 18px 130px 34px;
+}
+.nav-item,
+.jumbotron {
+  margin-left: 28px;
+}
+.Lasted {
+  margin-top: 96px;
+}
+.about {
+  margin-top: 90px;
+}
+.about-text {
+  margin-top: 83px;
+}
+.next {
+  margin-top: 40px;
+}
+.skills {
+  background-color: #fffaf2;
+}
+.skills_logo {
+  margin: 230px 0 0 36px;
+}
+.skills_card {
+  margin: 68px 0 0 20px;
+}
+.skills_progress {
+  padding: 71px 0 0 36px;
+}
+.progress-bar {
+  background-color: #c66c49;
+}
+.progress {
+  background-color: #f5d6ab;
+  height: 25px;
+}
+.portfolio_logo {
+  margin: 188px 0 44px 100px;
+}
+.portfolio_box_logo,
+.portfolio_box_text {
+  margin: 40px 0 0 100px;
+  padding-right: 40px;
+}
+.portfolio_box_bottom {
+  margin: 245px 0 0 130px;
+}
+.portfolio_card {
+  margin: 110px 0 0 0px;
+  padding: 0 0 0 40px;
+}
+.row {
+  row-gap: 26px;
+}
+.touch_logo{
+  margin:  222px 0 0 40px;
+}
+.touch_main{
+  margin:  50px 0 0 14px; 
+}
+
+@media screen and (max-width: 540px) {
+  h1 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 13px;
+  }
+  h4{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 27px;
+  }
+  
+  h5 {
+    font-size: 13px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .navbar,
+  .navbar-brand {
+    margin: 0 auto;
+  }
+  .nav-item,
+  .jumbotron,
+ .jumbotron-text,
+  .about,
+  .skills_logo,
+  .portfolio_logo,
+  .portfolio_box_logo,
+  .touch_logo,
+  .about-text,
+  .skills_logo,
+  .skills_card ,
+  .skills_progress,
+  .portfolio_logo,
+  .portfolio_box_logo,
+  .portfolio_box_text,
+  .portfolio_box_bottom,
+  .portfolio_card, 
+  .touch_main,
+  .touch_logo
+  {
+    margin: 0px;
+    padding: 0px;
+  } 
+  .progress {
+    height: 18px;
+  }
+  .portfolio_box_bottom {
+    display: none;
+    overflow: hidden;
+  }
+
+  .row {
+    row-gap: 12px;
+  }
+  .jumbotron-text,
+  .about,
+  .skills_logo,
+  .portfolio_logo,
+  .portfolio_box_logo,
+  .touch_logo,
+  .portfolio_logo,
+  .portfolio_box_logo,
+  .touch_logo {
+    text-align: center;
+  }
+}
